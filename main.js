@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-const container_width = window.innerWidth < 500 ? window.innerWidth : 500;
+const container_width = window.innerWidth < 500 ? window.innerWidth - 50 : 500;
 const container_height = window.innerHeight < 500 ? window.innerHeight : 500;
 container.style.width = container_width + "px";
 container.style.height = container_height + "px";
